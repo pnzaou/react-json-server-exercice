@@ -1,0 +1,133 @@
+{
+  "admin": [
+    {
+      "email": "admin@gmail.com",
+      "password": "passer123",
+      "id": "71cc"
+    }
+  ],
+  "burgers": [
+    {
+      "id": "1",
+      "name": "Cheeseburger",
+      "price": 5.99,
+      "image": "https://s7d1.scene7.com/is/image/mcdonaldsstage/DC_202302_0003-999_CheeseburgerAlt_1564x1564:product-header-mobile?wid=1313&hei=1313&dpr=off",
+      "description": "Délicieux cheeseburger avec fromage fondu.",
+      "archived": false
+    },
+    {
+      "id": "2",
+      "name": "Hamburger",
+      "price": 4.99,
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-Hamburger-april-new-image:nutrition-calculator-tile?wid=822&hei=822&dpr=off",
+      "description": "Hamburger classique avec des garnitures fraîches.",
+      "archived": false
+    },
+    {
+      "id": "3",
+      "name": "Bacon Burger",
+      "price": "6.99",
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-bacon-double-cheeseburger-april-promo:nutrition-calculator-tile?wid=822&hei=822&dpr=off",
+      "description": "Burger savoureux avec du bacon croustillant.",
+      "archived": false
+    },
+    {
+      "id": "4",
+      "name": "Chicken Burger",
+      "price": 5.49,
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/our-menu-resize-chicken_burger-qa:nutrition-calculator-tile?wid=822&hei=822&dpr=off",
+      "description": "Burger au poulet tendre et juteux.",
+      "archived": true
+    },
+    {
+      "id": "5",
+      "name": "Veggie Burger",
+      "price": 5.49,
+      "image": "https://s7d1.scene7.com/is/image/mcdonalds/mcd-VEGGIE-BURGER-om-0124:nutrition-calculator-tile?wid=822&hei=822&dpr=off",
+      "description": "Une galette de légumes frits croustillants.",
+      "archived": false
+    }
+  ],
+  "clients": [
+    {
+      "id": "4550",
+      "firstname": "Perrin Emmanuel",
+      "lastname": "Nzaou",
+      "tel": "771125147"
+    },
+    {
+      "id": "2ddd",
+      "firstname": "Bonheur Priscille",
+      "lastname": "Koumbi Bonike",
+      "tel": "065847159"
+    },
+    {
+      "id": "8bf5",
+      "firstname": "Bonheur Priscille",
+      "lastname": "Koumbi Bonike",
+      "tel": "065847159"
+    },
+    {
+      "id": "ef6d",
+      "firstname": "Perrin Emmanuel",
+      "lastname": "Nzaou",
+      "tel": "771125147"
+    },
+    {
+      "id": "d4e5",
+      "firstname": "Votre prénom...",
+      "lastname": "Votre nom...",
+      "tel": "Tel..."
+    },
+    {
+      "id": "30cb",
+      "firstname": "Junior",
+      "lastname": "Dublond",
+      "tel": "776787567"
+    },
+    {
+      "id": "a7e9",
+      "firstname": "John",
+      "lastname": "Doe",
+      "tel": "356788866"
+    }
+  ],
+  "orders": [
+    {
+      "id": "fa90",
+      "userId": "8bf5",
+      "burgerId": "1",
+      "quantite": 2,
+      "montantTotal": "11.98",
+      "create_at": "2024-08-09T20:41:07.673Z",
+      "etat": "terminé"
+    },
+    {
+      "id": "2242",
+      "userId": "ef6d",
+      "burgerId": "4",
+      "quantite": 3,
+      "montantTotal": "16.47",
+      "create_at": "2024-08-09T20:43:02.840Z",
+      "etat": "annulée"
+    },
+    {
+      "id": "739e",
+      "userId": "30cb",
+      "burgerId": "4",
+      "quantite": 4,
+      "montantTotal": "21.96",
+      "create_at": "2024-08-09T21:54:15.443Z",
+      "etat": "terminé"
+    },
+    {
+      "id": "bbf7",
+      "userId": "a7e9",
+      "burgerId": "3",
+      "quantite": 5,
+      "montantTotal": "34.95",
+      "create_at": "2024-08-09T22:22:29.163Z",
+      "etat": "annulée"
+    }
+  ]
+}
